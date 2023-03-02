@@ -208,6 +208,7 @@ ul {
     flex-direction: column;
     padding: 5% 0;
     justify-content: flex-end;
+    max-height: 556px;
 }
 
 .product-page-transfer {
