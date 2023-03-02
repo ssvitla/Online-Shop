@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPORTIF-USA - CATALOG</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../image/favicon.ico">
+
+    <!-- Bootsrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS code -->
+    <link rel="stylesheet" href="../style/normalize.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/media.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="header-top navbar navbar-expand-xl">
+            <a href="../index.html"><img src="../image/logo.png" alt="logo" class="logo navbar-brand"></a>
+            <div class="navbar-section">
+                <button class="navbar-toggler navbar-light custom-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="header-top__nav navbar-nav text-uppercase">
+                        <li class="header-top__nav-item nav-item"><a href="#">SHORTS</a></li>
+                        <li class="header-top__nav-item nav-item"><a href="#">PANTS</a></li>
+                        <li class="header-top__nav-item nav-item"><a href="#">SHIRTS</a></li>
+                        <li class="header-top__nav-item nav-item"><a href="#">ACCESSORIES</a></li>
+                        <li class="header-top__nav-item nav-item"><a href="#">SALE</a></li>
+                    </ul>
+                    <div class="header-top__search text-uppercase"><input placeholder="SEARCH ENTIRE STORE HERE"
+                            type="search">
+                    </div>
+
+                </div>
+                <div><a class="cart-icon" href="../cart/index.html" target="_blank"><img src="../image/cart.svg"
+                            alt="cart"><svg class="svg-icon display-none"
+                            style="width: 1em; height: 1em;vertical-align: middle;fill: #A04955;overflow: hidden;"
+                            viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M512 64.383234C264.7878 64.383234 64.383234 264.7878 64.383234 512s200.404567 447.616766 447.616766 447.616766 447.616766-200.404567 447.616766-447.616766S759.2122 64.383234 512 64.383234zM749.24404 399.346715 490.771928 730.197844c-25.757381 32.969325-73.223154 32.730188-98.382691-0.833916L268.525094 564.127936c-14.827561-19.780982-10.813317-47.835721 8.967665-62.664303 19.780982-14.827561 47.836743-10.813317 62.664303 8.967665l101.483305 142.855154 237.057022-309.05485c15.21897-19.480527 43.349333-22.93576 62.830882-7.71679C761.008798 351.734802 764.46301 379.865166 749.24404 399.346715z" />
+                        </svg></a></div>
+            </div>
+        </nav>
+
+        <div class="product-nav">
+            <ul class="breadcrumb">
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="#">SHORTS</a></li>
+            </ul>
+            <div class="product-search"><input type="search" placeholder="Search"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="collapse-container"><button class="vertical-nav__collapse"></button></div>
+        <div class="section product-show">
+            <div class="vertical-nav">
+                <div class="vertical-nav__section">
+                    <p>SIZE<img src="../image/vector-up.svg" alt="vector"></p>
+                    <div class="box__container">
+                        <div class="size-box">30</div>
+                        <div class="size-box">32</div>
+                        <div class="size-box">34</div>
+                        <div class="size-box">36</div>
+                        <div class="size-box">38</div>
+                        <div class="size-box">40</div>
+                        <div class="size-box">42</div>
+                        <div class="size-box">44</div>
+                        <div class="size-box">46</div>
+                    </div>
+                </div>
+                <div class="vertical-nav__section">
+                    <p>COLOR<img src="../image/vector-up.svg" alt="vector"></p>
+                    <div class="box__container">
+                        <div class="color-box black"></div>
+                        <div class="color-box brown"></div>
+                        <div class="color-box blue"></div>
+                        <div class="color-box green"></div>
+                        <div class="color-box grey"></div>
+                        <div class="color-box yellow"></div>
+                        <div class="color-box white"></div>
+                    </div>
+                </div>
+                <div class="vertical-nav__section">
+                    <p>BRAND<img src="../image/vector-up.svg" alt="vector"></p>
+                    <ul class="filter-box__brands">
+                        <li class="checkbox__container">
+                            <input class="checkbox" type="checkbox" data-brand="adidas" id="checkbox__ad">
+                            <label for="checkbox__ad">adidas</label>
+                        </li>
+                        <li class="checkbox__container">
+                            <input class="checkbox" data-brand="Champion" type="checkbox" id="checkbox__ch">
+                            <label for="checkbox__ch">Champion</label>
+                        </li>
+                        <li class="checkbox__container">
+                            <input class="checkbox" data-brand="Hook & Tackle" type="checkbox" id="checkbox__ht">
+                            <label for="checkbox__ht">Hook & Tackle</label>
+                        </li>
+                        <li class="checkbox__container">
+                            <input class="checkbox" data-brand="Jerzees" type="checkbox" id="checkbox__jz">
+                            <label for="checkbox__jz">Jerzees</label>
+                        </li>
+                        <li class="checkbox__container">
+                            <input class="checkbox" data-brand="Lacoste" type="checkbox" id="checkbox__lc">
+                            <label for="checkbox__lc">Lacoste</label>
+                        </li>
+                        <li class="checkbox__container disabled">
+                            <input class="checkbox checkbox-disabled" data-brand="Levi's" type="checkbox"
+                                id="checkbox__lv">
+                            <label for="checkbox__lv">Levi's</label>
+                        </li>
+                        <li class="checkbox__container">
+                            <input class="checkbox" data-brand="Nike" type="checkbox" id="checkbox__nk">
+                            <label for="checkbox__nk">Nike</label>
+                        </li>
+                        <li class="checkbox__container">
+                            <input class="checkbox" data-brand="Sportif" type="checkbox" id="checkbox__sp">
+                            <label for="checkbox__sp">Sportif</label>
+                        </li>
+                        <li class="checkbox__container disabled">
+                            <input class="checkbox checkbox-disabled" data-brand="Tommy Hilfiger" type="checkbox"
+                                id="checkbox__th">
+                            <label for="checkbox__th">Tommy Hilfiger</label>
+                        </li>
+                        <li class="checkbox__container">
+                            <input class="checkbox" data-brand="Under Armour" type="checkbox" id="checkbox__un">
+                            <label for="checkbox__un">Under Armour</label>
+                        </li>
+                        <!--<input class="apply-btn" type="button" value="Apply Filter">!-->
+                    </ul>
+                </div>
+                <div class="vertical-nav__section">
+                    <p>INSEAM<img src="../image/vector-down.svg" alt="vector"></p>
+                </div>
+                <div class="vertical-nav__section">
+                    <p>SUSTAINABLE FABRIC<img src="../image/vector-down.svg" alt="vector"></p>
+                </div>
+                <div class="vertical-nav__section">
+                    <p>COLLECTIONS<img src="../image/vector-down.svg" alt="vector"></p>
+                </div>
+            </div>
+
+            <div class="products">
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+                <div class="shopping-card box-shadow">
+                    <a href="" class="product-page-transfer">
+                        <img src="" alt="product-img" class="product-img">
+                        <p class="product-img__caption"></p>
+                        <img src="../image/5-star.png" alt="rating" class="product-rating">
+                        <p class="product-price"></span></p>
+                    </a>
+                    <button class="shopping__btn order__btn text-uppercase">ADD TO CART</button>
+                </div>
+
+
+
+            </div>
+
+            <a class="arrow-up absolute" href="#">
+                <svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50.5" cy="50.5" r="50.5" fill="#A0495581" fill-opacity="1" />
+                    <path d="M50.5 28.8572L38.953 48.8572H62.047L50.5 28.8572ZM52.5 72.1429V46.8572H48.5V72.1429H52.5Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </div>
+
+        <div class="pagination">
+            <li><a class="pagination-btn active" href="#">1</a></li>
+            <li><a class="pagination-btn" href="#">2</a></li>
+            <li><a class="pagination-btn" href="#">3</a></li>
+            <li><a class="pagination-btn" href="#">4</a></li>
+            <li><a class="pagination-btn" href="#">5</a></li>
+            <li><a class="pagination-btn arrow" href="#"><svg width="12" height="20" viewBox="0 0 12 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M11.5558 9.2196L2.65555 0.31951C2.4497 0.113495 2.1749 0 1.8819 0C1.58889 0 1.3141 0.113495 1.10824 0.31951L0.452802 0.974789C0.0263018 1.40178 0.0263018 2.09576 0.452802 2.52209L7.92656 9.99585L0.44451 17.4779C0.238658 17.6839 0.125 17.9586 0.125 18.2514C0.125 18.5446 0.238658 18.8192 0.44451 19.0254L1.09995 19.6805C1.30597 19.8865 1.5806 20 1.8736 20C2.16661 20 2.4414 19.8865 2.64726 19.6805L11.5558 10.7723C11.7621 10.5656 11.8755 10.2897 11.8748 9.99634C11.8755 9.70187 11.7621 9.4261 11.5558 9.2196Z"
+                            fill="#A04955" />
+                    </svg></a></li>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer__section">
+                <div class="footer__section-title text-uppercase">ORDERING ONLINE</div>
+                <ul class="footer-links">
+                    <li><a href="#">Account Login</a></li>
+                    <li><a href="#">Our Guarantee</a></li>
+                    <li><a href="#">Sportif Stretch Guide</a></li>
+                    <li><a href="#">Size Chart & Sizing Information</a></li>
+                    <li><a href="#">Hemming Information</a></li>
+                    <li><a href="#">Ordering & Payment</a></li>
+                    <li><a href="#">Shipping Information</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <div class="footer__section-title text-uppercase">ABOUT SPORTIF</div>
+                <ul class="footer-links">
+                    <li><a href="#">COVID-19 Response</a></li>
+                    <li><a href="#">History</a></li>
+                    <li><a href="#">Legacy</a></li>
+                    <li><a href="#">Good Sam Program</a></li>
+                    <li><a href="#">Privacy & Security</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <div class="footer__section-title text-uppercase">QUICK LINKS</div>
+                <ul class="footer-links">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shop Online Catalog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section feedback__section">
+                <div>
+                    <div class="footer__section-title text-uppercase">GET TO KNOW US</div>
+                    <p class="footer-links">Sign up for our weekly newsletter and get a 10% off coupon by email for
+                        your first
+                        order!</p>
+                </div>
+
+                <div>
+                    <p class="footer-links">Sign Up for Our Newsletter:</p>
+                    <form>
+                        <div class="form">
+                            <input type="email" value="EMAIL ADDRESS">
+                            <btn class="subscribe__btn">SUBSCRIBE</btn>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="copyright">©2021 Sportif Mailorder. All Rights Reserved.</div>
+    </footer>
+
+    <script src="../script/script.js"></script>
+    <script src="../script/catalog.js"></script>
+    <!--<script src="../script/cart.js"></script>!-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
